@@ -1,0 +1,18 @@
+{
+  "name": "csvlens-pro",
+  "version": "1.0.0",
+  "description": "Browser-based CSV explorer and visualizer",
+  "main": "src/csvlens.js",
+  "scripts": {
+    "start": "node src/csvlens.js",
+    "test": "node src/csvlens.js help && echo Tests passed",
+    "tracker": "node src/achievement-tracker.js",
+    "roadmap": "node src/achievement-tracker.js roadmap",
+    "achievements": "bash scripts/unlock-all.sh",
+    "setup": "bash scripts/setup.sh"
+  },
+  "keywords": ["github", "achievements", "csvlens-pro"],
+  "author": "YOUR_USERNAME",
+  "license": "MIT",
+  "engines": { "node": ">=20.0.0" }
+}
